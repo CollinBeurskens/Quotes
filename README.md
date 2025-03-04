@@ -1,12 +1,15 @@
-# Random Quote App
+# Quotes JSON File
 
-This is a simple web app that fetches a random quote from a JSON file and displays it on the page. The user can also download the displayed quote as a `.txt` file.
+This repository contains a `quotes.json` file that stores a collection of quotes. The file can be used to display random quotes on a web page or in an app.
 
-## `quotes.json` Structure
+## Structure of `quotes.json`
 
-The `quotes.json` file is where all the quotes are stored. It must follow a specific structure to be used correctly by the app.
+The `quotes.json` file contains an array of objects. Each object represents a quote and includes the following properties:
 
-### Structure:
+- **quote**: The text of the quote (string).
+- **author**: The name of the author (string).
+
+### Example
 
 ```json
 {
@@ -16,12 +19,12 @@ The `quotes.json` file is where all the quotes are stored. It must follow a spec
       "author": "Steve Jobs"
     },
     {
-      "quote": "In the middle of every difficulty lies opportunity.",
-      "author": "Albert Einstein"
+      "quote": "Life is what happens when you're busy making other plans.",
+      "author": "John Lennon"
     },
     {
-      "quote": "Success is not the key to happiness. Happiness is the key to success.",
-      "author": "Albert Schweitzer"
+      "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+      "author": "Ralph Waldo Emerson"
     }
   ]
 }
